@@ -1,14 +1,66 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
-import {defineConfig} from 'vite';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { defineConfig, type Plugin } from 'vite';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+function resolveHtmlEntryPlugin(): Plugin {
+  return {
+    name: 'resolve-html-entry',
+    enforce: 'pre',
+    resolveId(source: string, importer?: string) {
+      if (
+        importer &&
+        importer.endsWith('index.html') &&
+        (source.includes('main.tsx') ||
+          source.includes('Main.tsx') ||
+          source.includes('main.ts') ||
+          source.includes('Main.ts'))
+      ) {
+        const candidates = [
+          path.resolve(__dirname, 'src/main.tsx'),
+          path.resolve(__dirname, 'src/Main.tsx'),
+          path.resolve(__dirname, 'src/main.ts'),
+          path.resolve(process.cwd(), 'src/main.tsx'),
+          path.resolve(process.cwd(), 'src/Main.tsx'),
+        ];
+        for (const candidate of candidates) {
+          if (fs.existsSync(candidate)) {
+            return candidate;
+          }
+        }
+        return path.resolve(__dirname, 'src/main.tsx');
+      }
+      return null;
+    },
+  };
+}
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    root: process.cwd(),
+    plugins: [resolveHtmlEntryPlugin(), react(), tailwindcss()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
+      },
+    },
+    build: {
+      outDir: 'dist',
+      sourcemap: false,
+      chunkSizeWarningLimit: 1000,
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ['react', 'react-dom'],
+            motion: ['motion'],
+            icons: ['lucide-react'],
+          },
+        },
       },
     },
     server: {
