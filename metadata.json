@@ -1,0 +1,6 @@
+{
+  "name": "Astrologically Probably",
+  "description": "A polished, hilarious, intentionally useless astrology website. We predict things. Accuracy not included.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
