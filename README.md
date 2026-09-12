@@ -3,7 +3,7 @@
 
 
 # [Astrologically Probably] 🎯
-
+  
 
 ## Basic Details
 ### Team Name: [CodeX]
@@ -20,7 +20,7 @@ A hilariously useless astrology predictor that analyzes your birth details to ge
 The problem being solved is **making astrology more entertaining and engaging** by turning boring, generic predictions into an interactive experience. It also highlights how easily people can be entertained by confident-sounding predictions that have little real meaning.
 
 ### The Solution (that nobody asked for)
-Introducing COSMIC NONSENSE™ — an unnecessarily advanced astrology predictor that uses absolutely no science to generate confidently wrong predictions, fake cosmic scores, useless lucky objects, and warnings nobody needs.
+Introducing ASTROLOGICALLY PROBABLY™ — an unnecessarily advanced astrology predictor that uses absolutely no science to generate confidently wrong predictions, fake cosmic scores, useless lucky objects, and warnings nobody needs.
 Because apparently, knowing your future wasn’t pointless enough
 
 ## Technical Details
