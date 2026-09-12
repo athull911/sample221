@@ -2,50 +2,37 @@
 
 
 
-# [Project Name] 🎯
+# [Astrologically Probably] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [CodeX]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Athul Krishna V B] - [SNMIMT]
+- Member 2: [Adithyan T S] - [SNMIMT]
 
 ### Project Description
-[2-3 lines about what your project does]
+A hilariously useless astrology predictor that analyzes your birth details to generate completely random cosmic predictions. Get fake cosmic scores, ridiculous lucky objects, and wildly inaccurate predictions—all presented with dramatic AI-style animations.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+The problem being solved is **making astrology more entertaining and engaging** by turning boring, generic predictions into an interactive experience. It also highlights how easily people can be entertained by confident-sounding predictions that have little real meaning.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Introducing COSMIC NONSENSE™ — an unnecessarily advanced astrology predictor that uses absolutely no science to generate confidently wrong predictions, fake cosmic scores, useless lucky objects, and warnings nobody needs.
+Because apparently, knowing your future wasn’t pointless enough
 
 ## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+### Technologies/Components Use
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+**For Software:**
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
+* **Languages:** HTML, CSS, JavaScript
+* **Frameworks:** None — built as a lightweight vanilla web application
+* **Libraries:** Google Fonts, Font Awesome
+* **Tools:** VS Code, Git, GitHub, Web Browser
+* **Other:** CSS animations, JavaScript-based random prediction generator, Local Storage for saving scores/results
 
 # Screenshots (Add at least 3)
 ![Screenshot1:https://drive.google.com/file/d/1h8uO1cHUXfvG2Ai3Zdqgq53D7Z5zat6O/view?usp=drive_link])
@@ -56,28 +43,6 @@ screenshot2:[https://drive.google.com/file/d/1Z63EhgI4j-69rzwS5ej44-6INVszlEzn/v
 
 ![Screenshot3:https://drive.google.com/file/d/1kwwWE-emQXWHny6L4pskt1Mnd8NHD7YP/view?usp=drive_link]
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
