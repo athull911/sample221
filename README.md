@@ -35,13 +35,11 @@ Because apparently, knowing your future wasn’t pointless enough
 * **Other:** CSS animations, JavaScript-based random prediction generator, Local Storage for saving scores/results
 
 # Screenshots (Add at least 3)
-![Screenshot1:https://drive.google.com/file/d/1h8uO1cHUXfvG2Ai3Zdqgq53D7Z5zat6O/view?usp=drive_link])
-shows how a user 
+Screenshot1:https://drive.google.com/file/d/1h8uO1cHUXfvG2Ai3Zdqgq53D7Z5zat6O/view?usp=drive_link
 
-screenshot2:[https://drive.google.com/file/d/1Z63EhgI4j-69rzwS5ej44-6INVszlEzn/view?usp=drive_link](Add screenshot 2 here with proper name)
+screenshot2:https://drive.google.com/file/d/1Z63EhgI4j-69rzwS5ej44-6INVszlEzn/view?usp=drive_link
 
-
-![Screenshot3:https://drive.google.com/file/d/1kwwWE-emQXWHny6L4pskt1Mnd8NHD7YP/view?usp=drive_link]
+Screenshot3:https://drive.google.com/file/d/1kwwWE-emQXWHny6L4pskt1Mnd8NHD7YP/view?usp=drive_link
 
 
 ### Project Demo
